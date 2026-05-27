@@ -1,0 +1,18 @@
+# 使用者本機設定（規則），不上傳
+monitor_pin_rules.json
+
+# 由 GUI 依規則產生的 AHK 開機腳本（每位使用者各自產生）
+PinPanther.ahk
+
+# Claude CLI / local settings
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.spec
+.venv/
+venv/
